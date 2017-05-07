@@ -6,7 +6,11 @@
  * Alternatively, you can export a custom function for the update:
  * module.exports = function(done) { ... }
  */
-
+exports.create = {
+	User: [
+        { 'name.first': 'Admin', 'name.last': 'User', 'email': 'michael.francis85.mf@gmail.com', 'password': 'temp', 'isAdmin': true },
+	],
+};
 
 
 /*
